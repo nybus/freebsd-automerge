@@ -7,7 +7,10 @@ TAGS= \
 	9.1 \
 	9.2 \
 	9.3 \
-	10.0
+	10.0 \
+	10.1 \
+	10.2 \
+	10.3
 
 #TEMPROOT=/var/tmp/temproot-debug
 TEMPROOT?=/var/tmp/temproot-${.MAKE.PID}
