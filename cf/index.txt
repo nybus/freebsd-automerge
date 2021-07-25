@@ -100,6 +100,7 @@
 ./etc/mtree/BIND.chroot.dist
 ./etc/mtree/BSD.debug.dist
 ./etc/mtree/BSD.include.dist
+./etc/mtree/BSD.lib32.dist
 ./etc/mtree/BSD.local.dist
 ./etc/mtree/BSD.root.dist
 ./etc/mtree/BSD.sendmail.dist
