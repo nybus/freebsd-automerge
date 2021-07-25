@@ -12,7 +12,8 @@ TAGS= \
 	10.2 \
 	10.3 \
 	11.2 \
-	11.3
+	11.3 \
+	11.4
 
 #TEMPROOT=/var/tmp/temproot-debug
 TEMPROOT?=/var/tmp/temproot-${.MAKE.PID}
