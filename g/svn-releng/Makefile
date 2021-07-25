@@ -10,7 +10,9 @@ TAGS= \
 	10.0 \
 	10.1 \
 	10.2 \
-	10.3
+	10.3 \
+	11.2 \
+	11.3
 
 #TEMPROOT=/var/tmp/temproot-debug
 TEMPROOT?=/var/tmp/temproot-${.MAKE.PID}
@@ -18,7 +20,7 @@ TEMPROOT?=/var/tmp/temproot-${.MAKE.PID}
 SVNROOT=svn://svn.freebsd.org/base/releng
 
 _USR=${TEMPROOT}/usr
-_SRC=${TEMPROOT}/usr/src
+_SRC?=${TEMPROOT}/usr/src
 
 CO=svn co ${SVNROOT}/${TAG}/
 COE=${CO} --depth empty
